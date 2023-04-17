@@ -1,0 +1,40 @@
+.navbar-nav{
+    margin: auto;
+    position: sticky;
+}
+
+.iphone14pro{
+    background-image: url(pics/iPhone14fekete.png);
+    font-weight: bold;
+}
+
+.iphone14pro p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(32, 132, 190);
+}
+
+.iphone14pro p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.colorw{
+    color: white;
+}
+
+.pb-l{
+    padding-bottom: 450px;
+}
+
+h1{
+    font-size: 3.5rem;
+}
+
+.bg-body-dark{
+    background-color: rgb(44, 44, 44);
+}
