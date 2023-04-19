@@ -16,26 +16,29 @@
     <nav class="navbar navbar-expand-lg bg-body-dark navbar bg-dark " data-bs-theme="dark">
         <div class="container-fluid">
           <img src="pics/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-          <a class="navbar-brand" href="#">Apple</a>
+          <a class="navbar-brand" href="index.html">Apple</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link " href="#">iPhone</a>
+                <a class="nav-link " href="index.html">Kezdőlap</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">iPad</a>
+                <a class="nav-link " href="iphone.html">iPhone</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Macbook</a>
+                <a class="nav-link" href="ipad.html">iPad</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Watch</a>
+                <a class="nav-link" href="macbook.html">Macbook</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Kiegészítők</a>
+                <a class="nav-link" href="watch.html">Watch</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="kiegeszitok.html">Kiegészítők</a>
               </li>
               <!-- <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -52,16 +55,73 @@
         </div>
       </nav>
 
-      <div class="iphone14pro pt-5 pb-l text-center colorw">
+      <!-- <div class="iphone14pro pt-5 pb-l text-center colorw" style="background-image: url(pics/iPhone14fekete.png);">
         <h1>iPhone 14 Pro</h1>
         <h3>Határtalanul Pro</h3>
-        <p>Bővebben ></p>
+        <a href="iphone.html">Bővebben ></a>
       </div>
 
-      <img src="pics/iPhone14feher.png" alt="">ű
-      <img src="pics/iPhone14feher.png" alt="">
-      <img src="pics/iPhone14feher.png" alt="">
-      <img src="pics/iPhone14feher.png" alt="">
+      <div class="iphone14pro pt-5 pb-l text-center colorb" style="background-image: url(pics/iPhone14feher.png);">
+        <h1>iPhone 14</h1>
+        <h3>Két nagyszerű méret</h3>
+        <a href="iphone.html">Bővebben ></a>
+      </div> -->
+
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="pics/iPhone14fekete.png" class="d-block w-100" alt="iPhone14fekete">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>iPhone 14 Pro</h1>
+              <h3>Határtalanul Pro</h3>
+              <a href="iphone.html">Bővebben ></a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="pics/iPhone14feher2.png" class="d-block w-100" alt="iPhone14feher">
+            <div class="carousel-caption d-none d-md-block colorb">
+              <h1>iPhone 14</h1>
+              <h3>Két nagyszerű méret</h3>
+              <a href="iphone.html">Bővebben ></a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="pics/watchfekete.png" class="d-block w-100" alt="watchfekete">
+            <div class="carousel-caption d-none d-md-block">
+              <h1><sup><img src="pics/logo.png" alt="apple-logo" height="60px"></sup>Watch</h1>
+              <h2 class="text-center text-danger" style="font-variant: small-caps;">series 8</h2>
+              <h3>Nagy lépés az egészségért</h3>
+              <a href="watch.html">Bővebben ></a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- <div class="row">
+        <div class="card" style="width: 30rem;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+    </div> -->
+
       
 
     <script src="david.js"></script>

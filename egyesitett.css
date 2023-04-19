@@ -3,21 +3,22 @@
     position: sticky;
 }
 
-.iphone14pro{
+/* .iphone14{
     background-image: url(pics/iPhone14fekete.png);
     font-weight: bold;
 }
 
-.iphone14pro p{
+.iphone14 a{
     font-size: 1.5rem;
     font-weight: 400;
     color: rgb(32, 132, 190);
+    text-decoration: none;
 }
 
-.iphone14pro p:hover{
+.iphone14 a:hover{
     text-decoration: underline;
     cursor: pointer;
-}
+} */
 
 .text-center{
     text-align: center;
@@ -25,6 +26,10 @@
 
 .colorw{
     color: white;
+}
+
+.colorb{
+    color: black;
 }
 
 .pb-l{
@@ -37,4 +42,11 @@ h1{
 
 .bg-body-dark{
     background-color: rgb(44, 44, 44);
+}
+
+a{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(32, 132, 190);
+    text-decoration: none;
 }
