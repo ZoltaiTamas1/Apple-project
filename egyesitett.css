@@ -143,8 +143,8 @@ html{
     font-size: 0.9em;
 }
 
-.card{
-    width: 350px !important;
+.card1{
+    width: 360px !important;
 }
 
 .bold{
@@ -186,4 +186,22 @@ html{
 
 #carousel2{
     bottom: 3000px !important;
+}
+
+.w-850{
+    width: 87%;
+    max-width: 940px !important;
+    height: auto;
+}
+
+.card2{
+    width: 600px !important;
+}
+
+.pe-10{
+    padding-right: 5rem;
+}
+
+.ps-10{
+    padding-left: 5rem;
 }
