@@ -1,52 +1,173 @@
+html{
+    overflow-x: hidden;
+}
+
+*{
+    font-family: -apple-system,
+}
+
 .navbar-nav{
     margin: auto;
     position: sticky;
 }
 
-/* .iphone14{
+.index-text{
+    color: white;
+    width: 100%;
+}
+
+.kep1{
     background-image: url(pics/iPhone14fekete.png);
+    min-height:690px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.kep2{
+    background-image: url(pics/iPhone14feher.png);
+    min-height:690px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.kep3{
+    background-image: url(pics/watchfekete.png);
+    min-height:690px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.index-text h1{
+    font-size: 3.5rem;
     font-weight: bold;
 }
 
-.iphone14 a{
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: rgb(32, 132, 190);
-    text-decoration: none;
+.index-text h3{
+    font-size: 1.8rem;
 }
 
-.iphone14 a:hover{
-    text-decoration: underline;
-    cursor: pointer;
+.index-text a{
+    font-size: 1.4rem;
+}
+
+.card-kep1{
+    background-image: url(pics/airpods.png);
+    min-height: 580px;
+    max-width: 928px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.card-kep2{
+    background-image: url(pics/ipad.png);
+    min-height: 580px;
+    max-width: 928px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.card-kep3{
+    background-image: url(pics/iphone.png);
+    min-height: 580px;
+    max-width: 928px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.card-kep4{
+    background-image: url(pics/macbook.png);
+    min-height: 580px;
+    max-width: 928px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.pt-10{
+    padding-top: 300px;
+}
+
+.cad-text{
+    color: white;
+    width: 100%;
+}
+
+.cad-text h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.cad-text h3{
+    font-size: 1.4rem;
+}
+
+.cad-text a{
+    font-size: 1.1rem;
+}
+
+#carouselExampleAutoplaying{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.carousel-kep{
+    width: 100% !important;
+}
+
+.mt-s{
+    margin-top: 100px;
+}
+
+.ms-s{
+    margin-left: 30px;
+}
+
+.card-title{
+    font-size: 1.5em;
+}
+
+.card-text{
+    font-size: 0.9em;
+}
+
+.card{
+    width: 350px !important;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 3em;
+}
+
+/* div.col-sm-12{
+    width: 98%;
 } */
 
-.text-center{
-    text-align: center;
+.autocarousel{
+    max-width: 600px;
 }
 
-.colorw{
-    color: white;
+.content{
+    width: fit-content;
 }
 
-.colorb{
-    color: black;
+.kiseb{
+    width: 98%;
 }
 
-.pb-l{
-    padding-bottom: 450px;
-}
-
-h1{
-    font-size: 3.5rem;
-}
-
-.bg-body-dark{
-    background-color: rgb(44, 44, 44);
-}
-
-a{
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: rgb(32, 132, 190);
-    text-decoration: none;
+#carousel img{
+    border: 5px solid black;
 }
