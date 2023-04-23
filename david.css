@@ -8,6 +8,9 @@
     width: 20px !important ;
     font-size: large;
 }
+.invisible{
+    visibility: visible;
+}
 
 /* weboldal kinézete */
 
@@ -132,12 +135,14 @@ body{
 }
 .option{
     padding: 5px;
+    text-align: center;
 }
 .select{
-    margin-left: 543px;
+    justify-content: center !important; 
     margin-bottom: 25px;
     padding: 5px;
     border-radius: 10px;
     color: wheat;
     background-color: darkblue;
+
 }

@@ -43,7 +43,7 @@ function kingasarokbanMegny(){
         document.querySelector('#kingasarokban #d4').src = fehsemmi;    
     }
     if (kingasarokbanlepes == 8){
-        document.querySelector('#kingasarokban f65').src = fehsemmi;    
+        document.querySelector('#kingasarokban #f6').src = fehsemmi;    
         document.querySelector('#kingasarokban #d4').src = feherkiraly;
     }
     if (kingasarokbanlepes == 9){

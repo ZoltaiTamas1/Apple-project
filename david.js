@@ -46,6 +46,7 @@ function joValasz(){
     osszpontszam +=1
     elertpontszam +=1
     document.getElementById('kingasarokbanvalaszbtn').style.visibility = 'hidden'
+    document.getElementById('kingasarokbanTovabb').style.visibility = 'visible'
 }
 // fehérrel rövidsánc: 
     // document.querySelector('#xxxxxxxxxxxx #e8').src = feketekiraly;

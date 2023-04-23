@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.css">
-        <link rel="stylesheet" href="tamas.css">
+        <!-- <link rel="stylesheet" href="tamas.css"> -->
         <link rel="stylesheet" href="David.css">
         <link rel="stylesheet" href="egyesitett.css">
         
@@ -55,15 +55,15 @@
       </div>
    </div>
 </nav>
-    <div class="tartalom mx-auto"> 
+    <div class="tartalom"> 
       <p class="cim">Megnyitáselmélet</p>
         <p class="text-center">Ezen az oldalon a különböző megnyitások elméletét találhatuk meg</p>
         <!-- London -->
     
     <p style="margin-top: 0px;" id="londonszam" class="alcim">London</p>
         <div class="row">
-          <button class="col-3 btn btn-primary m-auto button1" id="londonVissza" onclick="londonVissza(); londonMegny()">Vissza</button>
-          <table id="london" class="m-auto chessboard">
+          <button class="col-auto btn btn-primary m-auto button1" id="londonVissza" onclick="londonVissza(); londonMegny()">Vissza</button>
+          <table id="london" class="m-auto chessboard col-auto">
                     <!-- 8 -->
                     <td class="pieced sakkmezo feketemezo"><img  id="a8" class="piece" src="figurák/feketebastya.png" ></td>
                     <td class="pieced sakkmezo fehermezo"><img id="b8" class="piece" src="figurák/feketehuszar.png" ></td>
@@ -152,7 +152,7 @@
                     <td class="pieced sakkmezo feketemezo"><img id="h1" class=" piece" src="figurák/feherbastya.png" ></td>
                 </tr>
           </table>  
-          <button class=" m-auto col-3 btn btn-primary button1" id="londonTovabb" onclick="londonTovabb(); londonMegny()">Tovább</button>
+          <button class=" m-auto col-auto btn btn-primary button1" id="londonTovabb" onclick="londonTovabb(); londonMegny()">Tovább</button>
           <!-- <button class="btn btn-primary button1" onclick="LondonValt()">debugger</button> -->
         </div>
         <!-- vienna -->
@@ -253,11 +253,16 @@
         </div>
         <!-- Fried liver -->
         <p id="friedLiverszam" class="alcim">Fried liver</p>
-        <select class="select text-center" id="friedLiverlinekulonvalaszto">
-          <option class="option" value="eloreAKiralyt">Előre a királyt</option>
-          <option class="option" value="gyalogaldozat">Gyalogáldozat (fekete)</option>
-          <option class="option" selected value="fovonal">Fővonal</option>
-        </select>
+       
+        <div style="width: 100%; text-align: center;">
+          <select class="select"  id="friedLiverlinekulonvalaszto">
+            <option class="option" value="eloreAKiralyt">Előre a királyt</option>
+            <option class="option" value="gyalogaldozat">Gyalogáldozat (fekete)</option>
+            <option class="option" selected value="fovonal">Fővonal</option>
+          </select>
+        </div>
+        
+     
         <div class="row">
           <button class="col-3 btn btn-primary m-auto button1" id="friedLiverVissza" onclick="friedLiverVissza(); friedLiverMegny()">Vissza</button>
           <table id="friedLiver" class="m-auto chessboard">
@@ -361,11 +366,11 @@
 
 
     <script src="David.JS"> </script>
-    <script src="tamas.JS"></script>
+    <!-- <script src="tamas.JS"></script> -->
     <script src="Megnyitaselmelet/London.JS"></script>
     <script src="Megnyitaselmelet/Vienna.JS"></script>
     <script src="Megnyitaselmelet/friedLiver.JS"></script>
-    <script src="Boostrap/bootstrap.bundle.min.js" ></script>
+    <script src="bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.js" ></script>
     <script src="egyesitett.JS" ></script>  
     
 </body>
