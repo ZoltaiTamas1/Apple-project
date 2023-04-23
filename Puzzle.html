@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+        <!-- <link rel="stylesheet" href="tamas.css"> -->
+        <link rel="stylesheet" href="David.css">
+        <link rel="stylesheet" href="egyesitett.css">
+        
+        <title>Puzzle</title>
+    </head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-dark navbar bg-dark row" data-bs-theme="dark">
+    <div class="container-fluid">
+      <img src="pics/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+      <a href="index.html"></a>
+      <a class="navbar-brand" href="index.html">Chess.Apple</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link " href="index.html">Kezdőlap</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link " href="iphone.html">iPhone</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ipad.html">iPad</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="megnyitaselmelet.html">Megnyitáselmélet </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="puzzle.html">Puzzle</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quiztest.html">Quiz</a>
+            </li>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              xxxxxxxxxxxxxxxxxxxxxxxxxxx
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">xxxxxxxxxxxxxxxx</a></li>
+              <li><a class="dropdown-item" href="#">xxxxxxxxxxxxxxxx</a></li>
+              <li><a class="dropdown-item" href="#">xxxxxxxxxxxxxxxx</a></li>
+            </ul>
+          </li> -->
+        </ul>
+      </div>
+   </div>
+</nav>
+    <div class="tartalom mx-auto"> 
+        <p class="cim">Puzzle</p>
+        <p class="text-center">Meg tudod ezeket oldani a megoldás megnézése előtt?</p>
+        <!-- 1 -->
+        <p style="margin-top: 0px;" id="kingasarokbanszam" class="alcim">1.</p>
+        <div class="row">
+          <button class="col-3 btn btn-primary m-auto button1" id="kingasarokbanVissza" onclick="kingasarokbanVissza(); kingasarokbanMegny()">Vissza</button>
+          <table id="kingasarokban" class="m-auto chessboard">
+                    <!-- 8 -->
+                    <td class="pieced sakkmezo feketemezo"><img  id="a8" class="piece" src="figurák/feketesemmi.png" ></td>
+                    <td class="pieced sakkmezo fehermezo"><img id="b8" class="piece" src="figurák/fehersemmi.png" ></td>
+                    <td class="pieced sakkmezo feketemezo"><img id="c8" class="piece" src="figurák/feketesemmi.png" ></td>
+                    <td class="pieced sakkmezo fehermezo"><img id="d8" class="piece" src="figurák/fehersemmi.png" ></td>
+                    <td class="pieced sakkmezo feketemezo"><img id="e8" class="piece" src="figurák/feketesemmi.png" ></td>
+                    <td class="pieced sakkmezo fehermezo"><img id="f8" class="piece" src="figurák/fehersemmi.png" ></td>
+                    <td class="pieced sakkmezo feketemezo"><img id="g8" class="piece" src="figurák/feketesemmi.png" ></td>
+                    <td class="pieced sakkmezo fehermezo"><img id="h8" class="piece" src="figurák/feketehuszar.png" ></td>
+                </tr>
+                <tr>
+                    <!-- 7 -->
+                    <td class="sakkmezo fehermezo"><img id="a7" src="" class="  " ></td>
+                    <td class="sakkmezo feketemezo"><img id="b7" src="" class="  " ></td>
+                    <td class="sakkmezo fehermezo"><img id="c7" src="" class="  " ></td>
+                    <td class="sakkmezo feketemezo"><img id="d7" src="" class="  " ></td>
+                    <td class="sakkmezo fehermezo"><img id="e7" src="" class="  " ></td>
+                    <td class="sakkmezo feketemezo"><img id="f7" src="" class="  " ></td>
+                    <td class="sakkmezo fehermezo"><img id="g7" src="" class="  " ></td>
+                    <td class="sakkmezo feketemezo"><img id="h7" src="figurák/fehergyalog.png" class="" ></td>
+                </tr>
+                <tr>
+                    <!-- 6 -->
+                    <td class="piece sakkmezo feketemezo"><img id="a6"  class="" src="" ></td>
+                    <td class="piece sakkmezo fehermezo"><img id="b6"  class="" src="" ></td>
+                    <td class="piece sakkmezo feketemezo"><img id="c6"  class="" src="" ></td>
+                    <td class="piece sakkmezo fehermezo"><img id="d6"  class="" src="" ></td>
+                    <td class="piece sakkmezo feketemezo"><img id="e6"  class="" src="" ></td>
+                    <td class="piece sakkmezo fehermezo"><img id="f6"  class="" src="" ></td>
+                    <td class="piece sakkmezo feketemezo"><img id="g6"  class="" src="" ></td>
+                    <td class="piece sakkmezo fehermezo"><img id="h6"  class="" src="" ></td>
+                </tr>
+                <tr>
+                    <!-- 5 -->
+                    <td class=" piece sakkmezo fehermezo"><img id="a5" class="" src="" ></td>
+                    <td class=" piece sakkmezo feketemezo"><img id="b5" class="" src="" ></td>
+                    <td class=" piece sakkmezo fehermezo"><img id="c5" class="" src="" ></td>
+                    <td class=" piece sakkmezo feketemezo"><img id="d5" class="" src="" ></td>
+                    <td class=" piece sakkmezo fehermezo"><img id="e5" class="" src="" ></td>
+                    <td class=" piece sakkmezo feketemezo"><img id="f5" class="" src="" ></td>
+                    <td class=" piece sakkmezo fehermezo"><img id="g5" class="" src="" ></td>
+                    <td class=" piece sakkmezo feketemezo"><img id="h5" class="" src="" ></td>
+                </tr>
+                <tr>
+                    <!-- 4 -->
+                    <td class="piece sakkmezo feketemezo"><img id="a4" class="" src="" ></td>
+                    <td class="piece sakkmezo fehermezo"><img id="b4" class="" src="" ></td>
+                    <td class="piece sakkmezo feketemezo"><img id="c4" class="" src="" ></td>
+                    <td class="piece sakkmezo fehermezo"><img id="d4" class="" src="" ></td>
+                    <td class="piece sakkmezo feketemezo"><img id="e4" class="" src="" ></td>
+                    <td class="piece sakkmezo fehermezo"><img id="f4" class="" src="" ></td>
+                    <td class="piece sakkmezo feketemezo"><img id="g4" class="" src="" ></td>
+                    <td class="piece sakkmezo fehermezo"><img id="h4" class="" src="" ></td>
+                </tr>
+                <tr>
+                    <!-- 3 -->
+                    <td class="piece sakkmezo fehermezo"><img id="a3" class="" src="" ></td>
+                    <td class="piece sakkmezo feketemezo"><img id="b3" class="" src="" ></td>
+                    <td class="piece sakkmezo fehermezo"><img id="c3" class="" src="" ></td>
+                    <td class="piece sakkmezo feketemezo"><img id="d3" class="" src="" ></td>
+                    <td class="piece sakkmezo fehermezo"><img id="e3" class="" src="" ></td>
+                    <td class="piece sakkmezo feketemezo"><img id="f3" class="" src="" ></td>
+                    <td class="piece sakkmezo fehermezo"><img id="g3" class="" src="" ></td>
+                    <td class="piece sakkmezo feketemezo"><img id="h3" class="" src="figurák/feherkiralyno.png" ></td>
+                </tr>
+                <tr>
+                    <!-- 2 -->
+                    <td class="sakkmezo feketemezo"><img id="a2" src="" class="  " ></td>
+                    <td class="sakkmezo fehermezo"><img id="b2" src="" class="  " ></td>
+                    <td class="sakkmezo feketemezo"><img id="c2" src="" class="  " ></td>
+                    <td class="sakkmezo fehermezo"><img id="d2" src="" class="  " ></td>
+                    <td class="sakkmezo feketemezo"><img id="e2" src=""  class=" " ></td>
+                    <td class="sakkmezo fehermezo"><img id="f2" src="figurák/feketegyalog.png" class="  " ></td>
+                    <td class="sakkmezo feketemezo"><img id="g2" src="figurák/feketegyalog.png" class="  " ></td>
+                    <td class="sakkmezo fehermezo"><img id="h2" src="figurák/feherbastya.png" class="  " ></td>
+                </tr>
+                <tr>
+                    <!-- 1 -->
+                    <td class="pieced sakkmezo fehermezo"><img id="a1" class=" piece" src="figurák/feherkiraly.png" ></td>
+                    <td class="pieced sakkmezo feketemezo"><img id="b1" class=" piece" src="figurák/feketesemmi.png" ></td>
+                    <td class="pieced sakkmezo fehermezo"><img id="c1" class=" piece" src="figurák/fehersemmi.png" ></td>
+                    <td class="pieced sakkmezo feketemezo"><img id="d1" class=" piece" src="figurák/feketesemmi.png" ></td>
+                    <td class="pieced sakkmezo fehermezo"><img id="e1" class=" piece" src="figurák/fehersemmi.png" ></td>
+                    <td class="pieced sakkmezo feketemezo"><img id="f1" class=" piece" src="figurák/feketefuto.png" ></td>
+                    <td class="pieced sakkmezo fehermezo"><img id="g1" class=" piece" src="figurák/feketekiraly.png " ></td>
+                    <td class="pieced sakkmezo feketemezo"><img id="h1" class=" piece" src="figurák/feketehuszar.png" ></td>
+                </tr>
+          </table>  
+          <button class=" m-auto col-3 btn btn-primary button1" id="kingasarokbanTovabb" onclick="kingasarokbanTovabb(); kingasarokbanMegny()">Tovább</button>
+          <button class="btn btn-primary button1" onclick="kingasarokbanValt()">debugger</button>
+        </div>
+        <div id="kingasarokbanvalaszbtn" class="row">
+            <button style="margin-top: 25px;" class="btn btn-primary button1 mx-auto " onclick="rosszValasz()">Feher nyer</button>
+            <button style="margin-top: 25px;" class="btn btn-primary button1 mx-auto " onclick="rosszValasz()">Fekete nyer</button>
+            <button style="margin-top: 25px;" class="btn btn-primary button1 mx-auto " onclick="joValasz()">Döntetlen</button>
+        </div>
+        
+        
+
+
+        
+               
+
+
+    <script src="David.JS" > </script>
+    <script src="Quiz/kingasarokban.JS"></script>
+    <script src="bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.min.js" ></script>
+    <script src="egyesitett.JS" ></script>  
+    
+</body>
+</html>

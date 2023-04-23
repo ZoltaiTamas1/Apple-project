@@ -25,7 +25,7 @@ function RejtettOldalonBtn(){
 };
 function passwordBeolvasas(){
     var password = document.getElementById('jelszo').value;
-    if (password === 'GyereGaborSakkozniVPingpong.03'){
+    if (password === 'GaborABaratom.04'){
         document.getElementById('tartalom').style.visibility = 'visible';
         document.getElementById('nav-itemek').style.pointerEvents = 'all';
     }
@@ -34,6 +34,18 @@ function passwordBeolvasas(){
         document.getElementById('nav-itemek').style.pointerEvents = 'none';
         alert('Ne próbálkozz, nem fog menni')
     }
+}
+let osszpontszam = 0
+let elertpontszam = 0
+
+function rosszValasz(){
+    osszpontszam +=1
+    document.getElementById('kingasarokbanvalaszbtn').style.visibility = 'hidden'
+}
+function joValasz(){
+    osszpontszam +=1
+    elertpontszam +=1
+    document.getElementById('kingasarokbanvalaszbtn').style.visibility = 'hidden'
 }
 // fehérrel rövidsánc: 
     // document.querySelector('#xxxxxxxxxxxx #e8').src = feketekiraly;

@@ -14,12 +14,12 @@
 ### Dávid hosztolta a git repot 
 
 ## **Oldalak**
-- **Nyító** 
+- **index** 
+- **Iphone**
+- **Ipad** 
 - **Megnyitáselmélet** 
-- **Meccseim**
-- **Quiz** 
-- **Megemlítendő meccsek** 
 - **Puzzle** 
+- **Quiz** 
 
 
 
