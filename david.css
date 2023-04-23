@@ -1,0 +1,143 @@
+.button1{
+    height: 75px !important ;
+    width: 150px !important ;
+    font-size: large;
+}
+.button2{
+    height: 10px !important ;
+    width: 20px !important ;
+    font-size: large;
+}
+
+/* weboldal kinézete */
+
+p{
+    color: white;
+    font-size: 20px;
+}
+h6{
+    font-size: 200px;
+    text-align: center;
+}
+
+/* sakktábla felállítása */
+.chessboard{
+    width: 20px;
+    margin: 0px auto;
+}
+td{
+    width: 25px;
+    height: 60px;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    transition-duration: 1ms;
+}
+.sakkmezo{
+    border: 1.5px solid black;
+    padding: 0px;
+    
+}
+.feketemezo{
+    background-color: #2b8b48;
+
+}
+.fehermezo{
+    background-color: #fff;
+}
+.chessboard .pieced{
+    padding: 4px;
+}
+.piece{
+    height: 56px;
+    width: 52px;
+    margin: 0px;
+}
+.gyalog{
+    width: 38px !important;
+    height: 48px !important;
+}
+
+
+/* sakktábla vége */
+
+body{
+    background-image: url('Hatterkep4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* BACK */
+    padding-left:75px;
+    padding-right:75px;
+    color: white;
+}
+.tartalom{
+    background-image: url('Hatterkep2.png');
+    padding-left: 50px;
+    padding-right: 50px;
+    pointer-events: all !important;
+}
+.enabled{
+    cursor: progress;
+    pointer-events: all !important;
+}
+.cursordefault{
+    cursor: default;
+}
+.cim{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bold;
+}
+.width1{
+    width: 250px;
+    height: 25px;
+}
+.width2{
+    width: auto;
+}
+
+/* nav */
+#rejtettgomb{
+    width: 375px;
+    height: 150px;
+    font-size: 50px;
+}
+.nav-item{
+    list-style: none;
+}
+#nav-itemek {
+    pointer-events: none;
+}
+
+.nav-gomb{
+    height: 25px;
+    padding-top: 0;
+}
+/* megnyitás */
+.Megny{
+    margin: auto;
+}
+.alcim{
+    text-align: center;
+    color: aqua;
+    font-size: 50px;
+    margin-top: 75px;
+}
+.nav-hatterszin{
+    background-color: white;
+}
+.option{
+    padding: 5px;
+}
+.select{
+    margin-left: 543px;
+    margin-bottom: 25px;
+    padding: 5px;
+    border-radius: 10px;
+    color: wheat;
+    background-color: darkblue;
+}
