@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=   edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="tomi.css">
+        <link rel="stylesheet" href="david.css">
+        <link rel="stylesheet" href="egyesitett.css">
+        <link rel="shortcut icon" href="pics/favicon.png" type="image/x-icon">
+        <title>Apple</title>
+    </head>
+<body style="color: white !important;">
+    
+    <nav class="navbar navbar-expand-lg bg-body-dark navbar bg-dark " data-bs-theme="dark">
+        <div class="container-fluid">
+          <a href="index.html"><img src="pics/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"></a>
+          <a class="navbar-brand" href="index.html">Apple</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link " href="index.html">Kezdőlap</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="iphone.html">iPhone</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="ipad.html">iPad</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="macbook.html">Macbook</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="watch.html">Watch</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="segitseg.html">Segítseg</a>
+                </li>
+                <li class="nav-item">
+                  <button class="btn btn-dark text-white" onclick="Szinvaltas1(); Szinvaltas2()">Hátter váltás</button>
+                </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  xxxxxxxxxxxxxxxxxxxxxxxxxxx
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">xxxxxxxxxxxxxxxx</a></li>
+                  <li><a class="dropdown-item" href="#">xxxxxxxxxxxxxxxx</a></li>
+                  <li><a class="dropdown-item" href="#">xxxxxxxxxxxxxxxx</a></li>
+                </ul>
+              </li> -->
+            </ul>
+          </div>
+       </div>
+    </nav>
+    <h1 class="text-center mb-5">Melyiket szeretné megvenni</h1>
+  <form>
+    <div class="row">
+        <button type="button" style="width: 8rem;"  class="mx-auto bg-dark col-4 col-md-2 col-lg-1 ms-5 btn "  onclick="shopping1()">
+          <div class="card bg-dark ">
+            <div class="card-body">
+              <p class="card-text">Iphone 14</p>
+            </div>
+          </div>
+        </buttons>
+        <button type="button" style="width: 8rem;"  class="mx-auto bg-dark col-4 col-md-2 col-lg-1 btn" onclick="shopping2()">
+          <div class="card bg-dark mx-auto">
+            <div class="card-body">
+              <p class="card-text">Iphone 13</p>
+            </div>
+          </div>
+        </buttons>
+        <button type="button" style="width: 8rem;"  class="mx-auto bg-dark col-4 col-md-2 col-lg-1 btn" onclick="shopping3()">
+          <div class="card bg-dark mx-auto">
+            <div class="card-body">
+              <p class="card-text">Ipad</p>
+            </div>
+          </div>
+        </buttons>
+        <button type="button" style="width: 8rem;"  class="mx-auto bg-dark col-4 col-md-2 col-lg-1 btn" onclick="shopping4()">
+          <div class="card bg-dark mx-auto">
+            <div class="card-body">
+              <p class="card-text">Ipad Pro</p>
+            </div>
+          </div>
+        </buttons>
+        <button type="button" style="width: 8rem;"  class="mx-auto bg-dark col-4 col-md-2 col-lg-1 btn" onclick="shopping5()">
+          <div class="card bg-dark mx-auto">
+            <div class="card-body">
+              <p class="card-text">Ipad Air</p>
+            </div>
+          </div>
+        </buttons>
+        <button type="button" style="width: 10rem;"  class="mx-auto bg-dark col-4 col-md-2 col-lg-1 btn" onclick="shopping6()">
+          <div class="card bg-dark mx-auto">
+            <div class="card-body">
+              <p class="card-text">Macbook Pro</p>
+            </div>
+          </div>
+        </buttons>
+        <button type="button" style="width: 10rem;"  class="mx-auto bg-dark col-4 col-md-2 col-lg-1 btn" onclick="shopping7()">
+          <div class="card bg-dark mx-auto">
+            <div class="card-body">
+              <p class="card-text">Macbook Air</p>
+            </div>
+          </div>
+        </buttons>
+        <button type="button" style="width: 9rem;"  class="mx-auto bg-dark col-4 col-md-2 col-lg-1 btn" onclick="shopping8()">
+          <div class="card bg-dark mx-auto">
+            <div class="card-body">
+              <p class="card-text">Watch Ultra</p>
+            </div>
+          </div>
+        </buttons>
+        <button type="button" style="width: 9rem;"  class="mx-auto bg-dark col-4 col-md-2 col-lg-1 btn" onclick="shopping9()">
+          <div class="card bg-dark mx-auto">
+            <div class="card-body">
+              <p class="card-text">Watch SE</p>
+            </div>
+          </div>
+        </buttons>
+        <button type="button" style="width: 9rem;"  class="mx-auto bg-dark col-4 col-md-2 col-lg-1 btn" onclick="torles()">
+          <div class="card bg-dark mx-auto">
+            <div class="card-body">
+              <p class="card-text">Törlés</p>
+            </div>
+          </div>
+        </buttons>
+    </div>
+  </form>
+  <div class="row">
+  <h2 class="text-center my-5">Listája:</h2>
+  <div style="width: 10rem; height: 3rem;" class="card bg-dark text-center mx-auto">
+    <div class="card-body">
+      <p id="lista1" class="card-text"></p>
+    </div>
+  </div>
+  <div style="width: 10rem; height: 3rem;" class="card bg-dark mx-auto text-center">
+    <div class="card-body">
+      <p id="lista2" class="card-text"></p>
+    </div>
+  </div>
+  <div style="width: 10rem; height: 3rem;" class="card bg-dark mx-auto text-center">
+    <div class="card-body">
+      <p id="lista3" class="card-text"></p>
+    </div>
+  </div>
+  <div style="width: 10rem; height: 3rem;" class="card bg-dark mx-auto text-center">
+    <div class="card-body">
+      <p id="lista4" class="card-text"></p>
+    </div>
+  </div>
+  <div style="width: 10rem; height: 3rem;" class="card bg-dark mx-auto text-center">
+    <div class="card-body">
+      <p id="lista5" class="card-text"></p>
+    </div>
+  </div>
+  <div style="width: 10rem; height: 3rem;" class="card bg-dark mx-auto text-center">
+    <div class="card-body">
+      <p id="lista6" class="card-text"></p>
+    </div>
+  </div>
+</div>
+    <script src="david.js"></script>
+    <script src="Tomi.js"></script>
+    <script src="bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.js"></script>
+    <script src="egyesitett.js"></script>  
+  
+ </body>
+</html>
