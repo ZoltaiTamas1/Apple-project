@@ -6,12 +6,12 @@ html{
     color: white;
 }
 body{
-    background-image: url('pics/Hatterkepek/bg-4.jpg');
+    background-image: url('pics/Hatterkepek/bg-4.jpg'  );
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     /* kérdéses */
-}
+} 
 *{
     font-family: -apple-system,
 }
@@ -20,7 +20,9 @@ body{
     margin: auto;
     position: sticky;
 }
-
+.navbar{
+    letter-spacing: 0.5px;
+}
 .index-text{
     color: white;
     width: 100%;
@@ -219,4 +221,7 @@ body{
 }
 .macbook{
     height: 350px;
+}
+#segitsegbody .card{
+    width: 10rem;
 }

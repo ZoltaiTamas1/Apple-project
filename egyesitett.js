@@ -20,6 +20,21 @@ function Szinvaltas2(){
         document.body.style.backgroundImage = "url('pics/Hatterkepek/bg-7.jpg')";
     }
 }
+function Szinvaltas1(){
+    hatterszam += 1
+    if (hatterszam == 2){
+        hatterszam = 0
+    }
+}
+// function Szinvaltas2(){
+//     if (hatterszam == 0){
+//         document.body.style.backgroundColor = "white"
+//     }
+//     if (hatterszam == 1){
+//         document.body.style.backgroundColor = "black";
+//     }
+// }
+
 function shopping1(){
     if (shopping == 0){
         document.getElementById('lista1').innerHTML = 'iphone 14'
