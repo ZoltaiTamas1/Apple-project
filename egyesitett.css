@@ -16,7 +16,9 @@ html{
     margin: auto;
     position: sticky;
 }
-
+.nav{
+    width: max-content;
+}
 .index-text{
     color: white;
     width: 100%;
