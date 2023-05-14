@@ -7,9 +7,17 @@
         <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="egyesitett.css">
         <link rel="shortcut icon" href="pics/favicon.png" type="image/x-icon">
+        <style>
+          body{
+            background-image: url('pics/Hatterkepek/bg-4.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+        </style>
         <title>Apple</title>
     </head>
-<body id="segitsegbody " style="color: white !important;">
+<body class="segitsegbody ">
   <div class="container">
     
     <nav class="navbar navbar-expand-lg bg-body-dark navbar bg-dark " data-bs-theme="dark">
@@ -39,173 +47,207 @@
                 <li class="nav-item">
                   <a class="nav-link" href="segitseg.html">Segítség</a>
                 </li>
-                <li class="nav-item">
-                  <button class="btn btn-dark stext-white" onclick="Szinvaltas1(); Szinvaltas2()">Hátter váltás</button>
-                </li>
-              <!-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  xxxxxxxxxxxxxxxxxxxxxxxxxxx
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">xxxxxxxxxxxxxxxx</a></li>
-                  <li><a class="dropdown-item" href="#">xxxxxxxxxxxxxxxx</a></li>
-                  <li><a class="dropdown-item" href="#">xxxxxxxxxxxxxxxx</a></li>
-                </ul>
-              </li> -->
             </ul>
           </div>
        </div>
     </nav>
-  <!-- <form> 
-    <div class="row">
-        <button type="button" style="width: 8rem;"  class="mx-auto bg-dark col-4 col-md-2 col-lg-1 ms-5 btn "  onclick="shopping1()">
-          <div class="card bg-dark ">
-            <div class="card-body">
-              <p class="card-text">Iphone 14</p>
-            </div>
-          </div>
-        </buttons>
-        <button type="button" style="width: 8rem;"  class="mx-auto bg-dark col-4 col-md-2 col-lg-1 btn" onclick="shopping2()">
-          <div class="card bg-dark mx-auto">
-            <div class="card-body">
-              <p class="card-text">Iphone 13</p>
-            </div>
-          </div>
-        </buttons>
-        <button type="button" style="width: 8rem;"  class="mx-auto bg-dark col-4 col-md-2 col-lg-1 btn" onclick="shopping3()">
-          <div class="card bg-dark mx-auto">
-            <div class="card-body">
-              <p class="card-text">Ipad</p>
-            </div>
-          </div>
-        </buttons>
-        <button type="button" style="width: 8rem;"  class="mx-auto bg-dark col-4 col-md-2 col-lg-1 btn" onclick="shopping4()">
-          <div class="card bg-dark mx-auto">
-            <div class="card-body">
-              <p class="card-text">Ipad Pro</p>
-            </div>
-          </div>
-        </buttons>
-        <button type="button" style="width: 8rem;"  class="mx-auto bg-dark col-4 col-md-2 col-lg-1 btn" onclick="shopping5()">
-          <div class="card bg-dark mx-auto">
-            <div class="card-body">
-              <p class="card-text">Ipad Air</p>
-            </div>
-          </div>
-        </buttons>
-        <button type="button" style="width: 10rem;"  class="mx-auto bg-dark col-4 col-md-2 col-lg-1 btn" onclick="shopping6()">
-          <div class="card bg-dark mx-auto">
-            <div class="card-body">
-              <p class="card-text">Macbook Pro</p>
-            </div>
-          </div>
-        </buttons>
-        <button type="button" style="width: 10rem;"  class="mx-auto bg-dark col-4 col-md-2 col-lg-1 btn" onclick="shopping7()">
-          <div class="card bg-dark mx-auto">
-            <div class="card-body">
-              <p class="card-text">Macbook Air</p>
-            </div>
-          </div>
-        </buttons>
-        <button type="button" style="width: 9rem;"  class="mx-auto bg-dark col-4 col-md-2 col-lg-1 btn" onclick="shopping8()">
-          <div class="card bg-dark mx-auto">
-            <div class="card-body">
-              <p class="card-text">Watch Ultra</p>
-            </div>
-          </div>
-        </buttons>
-        <button type="button" style="width: 9rem;"  class="mx-auto bg-dark col-4 col-md-2 col-lg-1 btn" onclick="shopping9()">
-          <div class="card bg-dark mx-auto">
-            <div class="card-body">
-              <p class="card-text">Watch SE</p>
-            </div>
-          </div>
-        </buttons>
-        <button type="button" style="width: 9rem;"  class="mx-auto bg-dark col-4 col-md-2 col-lg-1 btn" onclick="torles()">
-          <div class="card bg-dark mx-auto">
-            <div class="card-body">
-              <p class="card-text">Törlés</p>
-            </div>
-          </div>
-        </buttons>
-    </div>
-  </form>
-  <div class="row">
-  <h2 class="text-center my-5">Listája:</h2>
-  <div style="width: 10rem; height: 3rem;" class="card bg-dark text-center mx-auto">
-    <div class="card-body">
-      <p id="lista1" class="card-text"></p>
-    </div>
-  </div>
-  <div style="width: 10rem; height: 3rem;" class="card bg-dark mx-auto text-center">
-    <div class="card-body">
-      <p id="lista2" class="card-text"></p>
-    </div>
-  </div>
-  <div style="width: 10rem; height: 3rem;" class="card bg-dark mx-auto text-center">
-    <div class="card-body">
-      <p id="lista3" class="card-text"></p>
-    </div>
-  </div>
-  <div style="width: 10rem; height: 3rem;" class="card bg-dark mx-auto text-center">
-    <div class="card-body">
-      <p id="lista4" class="card-text"></p>
-    </div>
-  </div>
-  <div style="width: 10rem; height: 3rem;" class="card bg-dark mx-auto text-center">
-    <div class="card-body">
-      <p id="lista5" class="card-text"></p>
-    </div>
-  </div>
-  <div style="width: 10rem; height: 3rem;" class="card bg-dark mx-auto text-center">
-    <div class="card-body">
-      <p id="lista6" class="card-text"></p>
-    </div>
-  </div>
-</div> -->
 
- <h1 class="text-center mb-5">Melyiket tetszik önnek?</h1>
+
+
+<h1 class="text-center mb-5">Melyik tetszik önnek?</h1>
 <div class="row">
-  <div class="col-lg-4 col-md-6 col-12 ">
- <div class="card ">
-  <img src="pics/vasarlas-kepek/iphone-14-pro.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title text-center fs-1">IPhone 14</h5>
-    <select class="mt-2 mb-3 bg-primary text-white fs-4" style="width: 67.5%; margin-left: 4rem;">
-      <option value="IPhone 14 Pro Max" selected>IPhone 14 Pro Max</option>
-      <option value="IPhone 14 Pro">IPhone 14 Pro</option>
-      <option value="IPhone 14 Plus">IPhone 14 Plus</option>
-      <option value="IPhone 14">IPhone 14</option>
-    </select>
-     
-      <a href="iphone.html" class="btn btn-primary ms-2 fs-2 text-center" style="width: 11rem;">Bővebben</a>
-      <button class="btn btn-primary ms-3 fs-2 text-center" style="width: 10rem;">Vásárlás</button>
+
+
+<div class="card col-lg-3 col-md-4 col-sm-6 col-sm-12 mx-auto mb-3" style="width: 14rem;">
+    <img style="height: 10rem; width: 14rem; right: 0.8rem;" src="pics/vasarlas-kepek/iphone-14-pro.jpg" class="card-img-top position-relative border border-danger border-5"  alt="...">
+    <div class="card-body">
+      <h3 class="text-center" style="position: relative; bottom: 0.5rem;">Iphone 14</h3> 
+      <div style="display: flex; justify-content: center; align-items: center; ">
+        <select class="mx-auto mb-3 bg-primary text-white rounded segitsegselect " id="segitsegselectiphone14">
+          <option value="iphone 14 Pro Max" selected>iphone 14 Pro Max</option>
+          <option value="iphone 14 Pro">iphone 14 Pro</option>
+          <option value="iphone 14 Plus">iphone 14 Plus</option>
+          <option value="iphone 14">iphone 14</option>
+        </select>
+      </div>
+      <a href="macbook.html" class="vasarlasbtn1 btn btn-primary mx-auto px-0" >Bővebben </a>
+      <button class="vasarlasbtn2 btn btn-primary mx-auto " onclick="vasarlas1()">Vásárlás</button>
     </div>
   </div>
+
+
+  <div class="card col-lg-3 col-md-4 col-sm-6 col-sm-12 mx-auto mb-3" style="width: 14rem;">
+    <img style="height: 10rem; width: 14rem; right: 0.8rem;" src="pics/vasarlas-kepek/iphone-13-pro.jpg" class="card-img-top position-relative border border-danger border-5"  alt="...">
+    <div class="card-body">
+      <h3 class="text-center" style="position: relative; bottom: 0.5rem;">Iphone 13</h3> 
+      <div style="display: flex; justify-content: center; align-items: center; ">
+        <select class="mx-auto mb-3 bg-primary text-white rounded segitsegselect" id="segitsegselectiphone13">
+          <option value="iphone 13 Pro" selected>iphone 13 Pro</option>
+          <option value="iphone 13 Mini">iphone 13 Mini</option>
+          <option value="iphone 13">iphone 13</option>
+        </select>
+      </div>
+      <a href="macbook.html" class="vasarlasbtn1 btn btn-primary mx-auto px-0" >Bővebben </a>
+      <button class="vasarlasbtn2 btn btn-primary mx-auto " onclick="vasarlas2()">Vásárlás</button>
+    </div>
   </div>
 
 
-  <div class="col-lg-4 col-md-6 col-12 me-5 " style="position: relative; left: 10rem; width: 15rem;" >
-    <div class="card ">
-     <img src="pics/vasarlas-kepek/iphone-13-pro.jpg " class="card-img-top" alt="...">
-     <div class="card-body">
-       <h5 class="card-title text-center fs-1">IPhone 13</h5>
-       <select class="mt-2 mb-3 bg-primary text-white fs-4" style="width: 67.5%; margin-left: 4rem;">
-        <option value="IPhone 13 Pro" selected>IPhone 13 Pro</option>
-        <option value="IPhone 13 Mini" >IPhone 13 Mini</option>
-        <option value="IPhone 3">IPhone 13</option>
-       </select>
-        
-         <a href="iphone.html" class="btn btn-primary ms-2 mx-auto w" >Bővebben</a>
-         <br>
-         <button class="btn btn-primary ms-3 mx-autos">Vásárlás</button>
-       </div>
-     </div>
-     </div>
+  <div class="card col-lg-3 col-md-4 col-sm-6 col-sm-12 mx-auto mb-3" style="width: 14rem;">
+    <img style="height: 10rem; width: 14rem; right: 0.8rem;" src="pics/ipad.png" class="card-img-top position-relative border border-danger border-5"  alt="...">
+    <div class="card-body">
+      <h3 class="text-center" style="position: relative; bottom: 0.5rem;">Ipad Pro</h3> 
+      <div style="display: flex; justify-content: center; align-items: center; " >
+        <select class="mx-auto mb-3 bg-primary text-white rounded segitsegselect" id="segitsegselectipadpro">
+          <option value="11 huvelykes" selected>11 hüvelykes </option>
+          <option value="12.9 huvelykes ">12.9 hüvelykes</option>
+        </select>
+      </div>
+      <a href="macbook.html" class="vasarlasbtn1 btn btn-primary mx-auto px-0" >Bővebben </a>
+      <button class="vasarlasbtn2 btn btn-primary mx-auto " onclick="vasarlas3()">Vásárlás</button>
+    </div>
+  </div>
 
+
+  <div class="card col-lg-3 col-md-4 col-sm-6 col-sm-12 mx-auto mb-3" style="width: 14rem;">
+    <img style="height: 10rem; width: 14rem; right: 0.8rem;" src="pics/iPad/iPadAir.png" class="card-img-top position-relative border border-danger border-5"  alt="...">
+    <div class="card-body">
+      <h3 class="text-center" style="position: relative; bottom: 0.5rem;">Ipad Air</h3> 
+      <div style="display: flex; justify-content: center; align-items: center; ">
+        <select class="mx-auto mb-3 bg-primary text-white rounded segitsegselect" >
+          <option value="10.9 huvelykes" selected>10.9 hüvelykes </option>
+          <option value="12 huvelykes ">12 hüvelykes</option>
+        </select>
+      </div>
+      <a href="macbook.html" class="vasarlasbtn1 btn btn-primary mx-auto px-0" >Bővebben </a>
+      <button class="vasarlasbtn2 btn btn-primary mx-auto " onclick="vasarlas4()">Vásárlás</button>
+    </div>
+  </div>
+
+
+  <div class="card col-lg-3 col-md-4 col-sm-6 col-sm-12 mx-auto mb-3" style="width: 14rem;">
+    <img style="height: 10rem; width: 14rem; right: 0.8rem;" src="pics/iPad/ipad.png" class="card-img-top position-relative border border-danger border-5"  alt="...">
+    <div class="card-body">
+      <h3 class="text-center" style="position: relative; bottom: 0.5rem;">Ipad </h3> 
+      <div style="display: flex; justify-content: center; align-items: center; ">
+        <select class="mx-auto mb-3 bg-primary text-white rounded segitsegselect">
+          <option value="Ipad 10.9 huvelykes" selected>10.9 hüvelykes </option>
+          <option value="10.2 huvelykes ">10.2 hüvelykes</option>
+        </select>
+      </div>
+      <a href="macbook.html" class="vasarlasbtn1 btn btn-primary mx-auto px-0" >Bővebben </a>
+      <button class="vasarlasbtn2 btn btn-primary mx-auto " onclick="vasarlas()">Vásárlás</button>
+    </div>
+  </div>
+
+
+  <div class="card col-lg-3 col-md-4 col-sm-6 col-sm-12 mx-auto mb-3" style="width: 14rem;">
+    <img style="height: 10rem; width: 14rem; right: 0.8rem;" src="pics/macbook/Macbook-air-m1-3.png" class="card-img-top position-relative border border-danger border-5"  alt="...">
+    <div class="card-body">
+      <h3 class="text-center" style="position: relative; bottom: 0.5rem;">Macbook air </h3> 
+      <div style="display: flex; justify-content: center; align-items: center; ">
+        <select class="mx-auto mb-3 bg-primary text-white rounded segitsegselect">
+          <option value="Macbook air M1" selected>Macbook air M1 </option>
+          <option value="Macbook air M2">Macbook air M2</option>
+        </select>
+      </div>
+      <a href="macbook.html" class="vasarlasbtn1 btn btn-primary mx-auto px-0" >Bővebben </a>
+      <button class="vasarlasbtn2 btn btn-primary mx-auto " onclick="vasarlas()">Vásárlás</button>
+    </div>
+  </div>
+
+
+  <div class="card col-lg-3 col-md-4 col-sm-6 col-sm-12 mx-auto mb-3" style="width: 14rem;">
+    <img style="height: 10rem; width: 14rem; right: 0.8rem;" src="pics/macbook/Macbook-pro-3.png" class="card-img-top position-relative border border-danger border-5"  alt="...">
+    <div class="card-body">
+      <h3 class="text-center segitsegmacpro" style="position: relative; bottom: 0.5rem;">Macbook Pro</h3> 
+      <div style="display: flex; justify-content: center; align-items: center; ">
+        <select class="mx-auto mb-3 bg-primary text-white rounded segitsegselect">
+          <option value="13 huvelykes" selected>13 hüvelykes </option>
+          <option value="14 huvelykes ">14 hüvelykes</option>
+        </select>
+      </div>
+      <a href="macbook.html" class="vasarlasbtn1 btn btn-primary mx-auto px-0" >Bővebben </a>
+      <button class="vasarlasbtn2 btn btn-primary mx-auto " onclick="vasarlas()">Vásárlás</button>
+    </div>
+  </div>
+
+  <div class="card col-lg-3 col-md-4 col-sm-6 col-sm-12 mx-auto mb-3" style="width: 14rem;">
+    <img style="height: 10rem; width: 14rem; right: 0.8rem;" src="pics/watchfekete. " class="card-img-top position-relative border border-danger border-5"  alt="...">
+    <div class="card-body">
+      <h3 class="text-center segitsegmacpro" style="position: relative; bottom: 0.5rem;">Watch </h3> 
+      <div style="display: flex; justify-content: center; align-items: center; ">
+        <select class="mx-auto mb-3 bg-primary text-white rounded segitsegselect">
+          <option value="13 huvelykes" selected>Watch Ultra </option>
+          <option value="14 huvelykes ">Watch SE</option>
+        </select>
+      </div>
+      <a href="macbook.html" class="vasarlasbtn1 btn btn-primary mx-auto px-0" >Bővebben </a>
+      <button class="vasarlasbtn2 btn btn-primary mx-auto " onclick="vasarlas()">Vásárlás</button>
+    </div>
+  </div>
+
+  </div>
+<div class="row text-dark" >
+  <div class="text-center mt-5 segitsegform col-md-5 col-sm-12 mx-auto">
+  <form >
+      <label class="" for="name">Név:</label>
+      <input placeholder="neve" type="text" id="name">
+    <br>
+    <div class="position-relative" style="right: 0.45rem;">
+      <label class="mt-4" for="email-cim">Email:</label>
+      <input placeholder="name@example.com" type="email" id="email-cim">
+    <br>
+    </div>
+      <div class="position-relative" style="right: 2.9rem;">
+      <label class="mt-4" for="iranyitoszam">Irányítószám:</label>
+      <input type="number" id="iranyitoszam">
+    <br>
+    </div>
+    <div class="position-relative" style="right: 1.7rem;">
+      <label class="mt-4" for="telepules">Település:</label>
+      <input type="text" id="telepules">
+      <br>
+    </div>
+      <div class="position-relative" style="right: 0.7rem;">
+      <label class="mt-4" for="address">Lakcím</label>
+      <input type="text" id="address">
+      <br>
+    </div>
+    <span class="position-relative " style="right: 5rem; bottom: 1rem;" >Fizetés módja:
+    <label class="mt-4" for="kp">Készpénz</label>
+    <input type="radio"  id="kp" name="reg">
+    <label for="card">Kártya</label>
+    <input type="radio"  id="card" name="reg">
+    </span>
+    <br>
+    <label for="kuldes"></label>
+    <input class="btn btn-primary inputbtn" type="submit" id="kuldes">
+    <label for="torles"></label>
+    <input class="btn btn-primary inputbtn" type="reset" id="torles">
+  </form>
+</div>
+<div class="col-md-7 col12 float-right mx-auto bevl rounded1">
+  <h1 class="listah1 mx-auto">Listája</h1>
+  <div class="row">
+    <div class="lista px-1 bg-primary fs-7 rounded col-md-4 col-sm-6 col-12 mx-auto" id="lista1"></div>
+    <div class="lista px-1 bg-primary fs-7 rounded col-md-4 col-sm-6 col-12 mx-auto" id="lista2"></div>
+    <div class="lista px-1 bg-primary fs-7 rounded col-md-4 col-sm-6 col-12 mx-auto" id="lista3"></div>
+    <div class="lista px-1 bg-primary fs-7 rounded col-md-4 col-sm-6 col-12 mx-auto" id="lista4"></div>
+    <div class="lista px-1 bg-primary fs-7 rounded col-md-4 col-sm-6 col-12 mx-auto" id="lista5"></div>
+    <div class="lista px-1 bg-primary fs-7 rounded col-md-4 col-sm-6 col-12 mx-auto" id="lista6"></div>
+  </div>
+  <h2 class="mt-3 text-center" id="osszesar"></h2>
 </div>
 
-    </div>
+
+
+<span class="mb-5"></span>
+</div>
+</div>
+
+
+
     <script src="bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.js"></script>
     <script src="egyesitett.js"></script>  
   

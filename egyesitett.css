@@ -5,13 +5,9 @@ html{
     background-color: #333;
     color: white;
 }
-body{
-    background-image: url('pics/Hatterkepek/bg-4.jpg'  );
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* kérdéses */
-} 
+#indexbody{
+    background-image: none;
+}
 *{
     font-family: -apple-system,
 }
@@ -20,9 +16,7 @@ body{
     margin: auto;
     position: sticky;
 }
-.navbar{
-    letter-spacing: 0.5px;
-}
+
 .index-text{
     color: white;
     width: 100%;
@@ -222,6 +216,50 @@ body{
 .macbook{
     height: 350px;
 }
-#segitsegbody .card{
+.vasarlasbtn1{
+    font-size: 0.924rem;
+    width: 5rem !important;
+    position: relative;
+    right: 0.5rem;
+}
+.vasarlasbtn2{
+    font-size: 0.924rem;
+    width: 5rem !important;
+    position: relative;
+    left: 0.5rem
+}
+.segitsegmacpro{
+    font-size: 1.71rem;
+}
+.segitsegselect{
+    text-transform: capitalize;
+}
+.segitsegform{
+    font-size: 1.5rem;
+}
+.inputbtn{
+    font-size: 1.5rem;
     width: 10rem;
+    height: 3rem;
+}
+.lista{
+    width: 175px;
+    height: 25px;
+    color: white;
+    position: relative;
+    top: 10px;
+    margin: 5px auto;
+    visibility: hidden;
+}
+.bevl{
+    background-color: white;
+    width: 660px;
+    height: 200px !important
+}
+.rounded1{
+    border-radius: 10%;
+}
+.listah1{
+    position: relative;
+    left: 250px;
 }

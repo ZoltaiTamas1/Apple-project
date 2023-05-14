@@ -1,255 +1,138 @@
-let hatterszam = 0  
-let shopping = 0
-function Szinvaltas1(){
-    hatterszam += 1
-    if (hatterszam == 4){
-        hatterszam = 0
-    }
-}
-function Szinvaltas2(){
-    if (hatterszam == 0){
-        document.body.style.backgroundImage = "url('pics/Hatterkepek/bg-4.jpg')";
-    }
-    if (hatterszam == 1){
-        document.body.style.backgroundImage = "url('pics/Hatterkepek/bg-5.jpg')";
-    }
-    if (hatterszam == 2){
-        document.body.style.backgroundImage = "url('pics/Hatterkepek/bg-6.jpg')";
-    }
-    if (hatterszam == 3){
-        document.body.style.backgroundImage = "url('pics/Hatterkepek/bg-7.jpg')";
-    }
-}
-function Szinvaltas1(){
-    hatterszam += 1
-    if (hatterszam == 2){
-        hatterszam = 0
-    }
-}
-// function Szinvaltas2(){
-//     if (hatterszam == 0){
-//         document.body.style.backgroundColor = "white"
-//     }
-//     if (hatterszam == 1){
-//         document.body.style.backgroundColor = "black";
-//     }
-// }
+let listaszam = 0
+let ar = 0
+const lista1 = document.getElementById('lista1')
+const lista2 = document.getElementById('lista2')
+const lista3 = document.getElementById('lista3')
+const lista4 = document.getElementById('lista4')
+const lista5 = document.getElementById('lista5')
+const lista6 = document.getElementById('lista6')
 
-function shopping1(){
-    if (shopping == 0){
-        document.getElementById('lista1').innerHTML = 'iphone 14'
-        shopping += 1
-    } else if (shopping == 1){
-        document.getElementById('lista2').innerHTML = 'iphone 14'
-        shopping += 1
-    } else if (shopping == 2){
-        document.getElementById('lista3').innerHTML = 'iphone 14'
-        shopping += 1
-    } else if (shopping == 3){
-        document.getElementById('lista4').innerHTML = 'iphone 14'
-        shopping += 1
-    } else if (shopping == 4){
-        document.getElementById('lista5').innerHTML = 'iphone 14'
-        shopping += 1
-    } else if (shopping == 5){
-        document.getElementById('lista6').innerHTML = 'iphone 14'
-        shopping += 1
-        shopping = 0
+
+
+function vasarlas1(){
+    let item = document.getElementById('segitsegselectiphone14').value
+    if (item == 'iphone 14 Pro Max'){
+        ar += 629990;
     }
- 
-    console.log(hatterszam)
-}
-function shopping2(){
-    if (shopping == 0){
-        document.getElementById('lista1').innerHTML = 'iphone 13'
-        shopping += 1
-    } else if (shopping == 1){
-        document.getElementById('lista2').innerHTML = 'iphone 13'
-        shopping += 1
-    } else if (shopping == 2){
-        document.getElementById('lista3').innerHTML = 'iphone 13'
-        shopping += 1
-    } else if (shopping == 3){
-        document.getElementById('lista4').innerHTML = 'iphone 13'
-        shopping += 1
-    } else if (shopping == 4){
-        document.getElementById('lista5').innerHTML = 'iphone 13'
-        shopping += 1
-    } else if (shopping == 5){
-        document.getElementById('lista6').innerHTML = 'iphone 13'
-        shopping += 1
-        shopping = 0
+    if (item == 'iphone 14 Pro'){
+        ar += 569990;
     }
- 
-    console.log(hatterszam)
-}
-function shopping3(){
-    if (shopping == 0){
-        document.getElementById('lista1').innerHTML = 'Ipad'
-        shopping += 1
-    } else if (shopping == 1){
-        document.getElementById('lista2').innerHTML = 'Ipad'
-        shopping += 1
-    } else if (shopping == 2){
-        document.getElementById('lista3').innerHTML = 'Ipad'
-        shopping += 1
-    } else if (shopping == 3){
-        document.getElementById('lista4').innerHTML = 'Ipad'
-        shopping += 1
-    } else if (shopping == 4){
-        document.getElementById('lista5').innerHTML = 'Ipad'
-        shopping += 1
-    } else if (shopping == 5){
-        document.getElementById('lista6').innerHTML = 'Ipad'
-        shopping += 1
-        shopping = 0
+    if (item == 'iphone 14 Plus'){
+        ar += 499990;
     }
- 
-    console.log(hatterszam)
-}
-function shopping4(){
-    if (shopping == 0){
-        document.getElementById('lista1').innerHTML = 'Ipad Pro'
-        shopping += 1
-    } else if (shopping == 1){
-        document.getElementById('lista2').innerHTML = 'Ipad Pro'
-        shopping += 1
-    } else if (shopping == 2){
-        document.getElementById('lista3').innerHTML = 'Ipad Pro'
-        shopping += 1
-    } else if (shopping == 3){
-        document.getElementById('lista4').innerHTML = 'Ipad Pro'
-        shopping += 1
-    } else if (shopping == 4){
-        document.getElementById('lista5').innerHTML = 'Ipad Pro'
-        shopping += 1
-    } else if (shopping == 5){
-        document.getElementById('lista6').innerHTML = 'Ipad Pro'
-        shopping += 1
-        shopping = 0
+    if (item == 'iphone 14'){
+        ar += 499990;
     }
     
- 
-    console.log(hatterszam)
-}
-function shopping5(){
-    if (shopping == 0){
-        document.getElementById('lista1').innerHTML = 'Ipad Air'
-        shopping += 1
-    } else if (shopping == 1){
-        document.getElementById('lista2').innerHTML = 'Ipad Air'
-        shopping += 1
-    } else if (shopping == 2){
-        document.getElementById('lista3').innerHTML = 'Ipad Air'
-        shopping += 1
-    } else if (shopping == 3){
-        document.getElementById('lista4').innerHTML = 'Ipad Air'
-        shopping += 1
-    } else if (shopping == 4){
-        document.getElementById('lista5').innerHTML = 'Ipad Air'
-        shopping += 1
-    } else if (shopping == 5){
-        document.getElementById('lista6').innerHTML = 'Ipad Air'
-        shopping += 1
-        shopping = 0
+    listaszam += 1
+    if (listaszam == 1){
+        lista1.style.visibility = 'visible'
+        lista1.innerHTML = item
     }
-}
-function shopping6(){
-    if (shopping == 0){
-        document.getElementById('lista1').innerHTML = 'Macbook Pro'
-        shopping += 1
-    } else if (shopping == 1){
-        document.getElementById('lista2').innerHTML = 'Macbook Pro'
-        shopping += 1
-    } else if (shopping == 2){
-        document.getElementById('lista3').innerHTML = 'Macbook Pro'
-        shopping += 1
-    } else if (shopping == 3){
-        document.getElementById('lista4').innerHTML = 'Macbook Pro'
-        shopping += 1
-    } else if (shopping == 4){
-        document.getElementById('lista5').innerHTML = 'Macbook Pro'
-        shopping += 1
-    } else if (shopping == 5){
-        document.getElementById('lista6').innerHTML = 'Macbook Pro'
-        shopping += 1
-        shopping = 0
+    if (listaszam == 2){
+        lista2.style.visibility = 'visible'
+        lista2.innerHTML = item
     }
-}
-function shopping7(){
-    if (shopping == 0){
-        document.getElementById('lista1').innerHTML = 'Macbook Air'
-        shopping += 1
-    } else if (shopping == 1){
-        document.getElementById('lista2').innerHTML = 'Macbook Air'
-        shopping += 1
-    } else if (shopping == 2){
-        document.getElementById('lista3').innerHTML = 'Macbook Air'
-        shopping += 1
-    } else if (shopping == 3){
-        document.getElementById('lista4').innerHTML = 'Macbook Air'
-        shopping += 1
-    } else if (shopping == 4){
-        document.getElementById('lista5').innerHTML = 'Macbook Air'
-        shopping += 1
-    } else if (shopping == 5){
-        document.getElementById('lista6').innerHTML = 'Macbook Air'
-        shopping += 1
-        shopping = 0
+    if (listaszam == 3){
+        lista3.style.visibility = 'visible'
+        lista3.innerHTML = item
     }
-}
-function shopping8(){
-    if (shopping == 0){
-        document.getElementById('lista1').innerHTML = 'Watch Ultra'
-        shopping += 1
-    } else if (shopping == 1){
-        document.getElementById('lista2').innerHTML = 'Watch Ultra'
-        shopping += 1
-    } else if (shopping == 2){
-        document.getElementById('lista3').innerHTML = 'Watch Ultra'
-        shopping += 1
-    } else if (shopping == 3){
-        document.getElementById('lista4').innerHTML = 'Watch Ultra'
-        shopping += 1
-    } else if (shopping == 4){
-        document.getElementById('lista5').innerHTML = 'Watch Ultra'
-        shopping += 1
-    } else if (shopping == 5){
-        document.getElementById('lista6').innerHTML = 'Watch Ultra'
-        shopping += 1
-        shopping = 0
+    if (listaszam == 4){
+        lista4.style.visibility = 'visible'
+        lista4.innerHTML = item
     }
-}
-function shopping9(){
-    if (shopping == 0){
-        document.getElementById('lista1').innerHTML = 'Watch SE'
-        shopping += 1
-    } else if (shopping == 1){
-        document.getElementById('lista2').innerHTML = 'Watch SE'
-        shopping += 1
-    } else if (shopping == 2){
-        document.getElementById('lista3').innerHTML = 'Watch SE'
-        shopping += 1
-    } else if (shopping == 3){
-        document.getElementById('lista4').innerHTML = 'Watch SE'
-        shopping += 1
-    } else if (shopping == 4){
-        document.getElementById('lista5').innerHTML = 'Watch SE'
-        shopping += 1
-    } else if (shopping == 5){
-        document.getElementById('lista6').innerHTML = 'Watch SE'
-        shopping += 1
-        shopping = 0
+    if (listaszam == 5){
+        lista5.style.visibility = 'visible'
+        lista5.innerHTML = item
     }
+    if (listaszam == 6){
+        lista6.style.visibility = 'visible'
+        lista6.innerHTML = item
+        listaszam = 0
+    }
+    console.log(listaszam)
+    document.getElementById('osszesar').innerHTML = 'Ár: ' + ar
 }
-function torles(){
-    shopping = 0
-    document.getElementById('lista1').innerHTML = ''
-    document.getElementById('lista2').innerHTML = ''
-    document.getElementById('lista3').innerHTML = ''
-    document.getElementById('lista4').innerHTML = ''
-    document.getElementById('lista5').innerHTML = ''
-    document.getElementById('lista6').innerHTML = ''
+function vasarlas2(){
+    let item = document.getElementById('segitsegselectiphone13').value
+    if (item == 'iphone 13 Pro'){
+        ar += 359000;
+    }
+    if (item == 'iphone 13 Mini'){
+        ar += 329000;
+    }
+    if (item == 'iphone 13'){
+        ar += 389000;
+    }
+    
+    listaszam += 1
+    if (listaszam == 1){
+        lista1.style.visibility = 'visible'
+        lista1.innerHTML = item
+    }
+    if (listaszam == 2){
+        lista2.style.visibility = 'visible'
+        lista2.innerHTML = item
+    }
+    if (listaszam == 3){
+        lista3.style.visibility = 'visible'
+        lista3.innerHTML = item
+    }
+    if (listaszam == 4){
+        lista4.style.visibility = 'visible'
+        lista4.innerHTML = item
+    }
+    if (listaszam == 5){
+        lista5.style.visibility = 'visible'
+        lista5.innerHTML = item
+    }
+    if (listaszam == 6){
+        lista6.style.visibility = 'visible'
+        lista6.innerHTML = item
+        listaszam = 0
+    }
+    console.log(listaszam)
+    document.getElementById('osszesar').innerHTML = 'Ár: ' + ar
+}
+function vasarlas3(){
+    let item = document.getElementById('segitsegselectipadpro').value
 
+if (item == '11 huvelykes' || item == '11 hüvelykes') {
+    ar += 469990;
+    item = '11 hüvelykes Ipad Pro'
+} else if (item == '12.9 huvelykes' || item == '12.9 hüvelykes') {
+    ar += 649990;
+    item = '12.9 hüvelykes Ipad Pro'
 }
-console.log(shopping)
+
+    
+    listaszam += 1
+    if (listaszam == 1){
+        lista1.style.visibility = 'visible'
+        lista1.innerHTML = item
+    }
+    if (listaszam == 2){
+        lista2.style.visibility = 'visible'
+        lista2.innerHTML = item
+    }
+    if (listaszam == 3){
+        lista3.style.visibility = 'visible'
+        lista3.innerHTML = item
+    }
+    if (listaszam == 4){
+        lista4.style.visibility = 'visible'
+        lista4.innerHTML = item
+    }
+    if (listaszam == 5){
+        lista5.style.visibility = 'visible'
+        lista5.innerHTML = item
+    }
+    if (listaszam == 6){
+        lista6.style.visibility = 'visible'
+        lista6.innerHTML = item
+        listaszam = 0
+    }
+    console.log(listaszam)
+    document.getElementById('osszesar').innerHTML = 'Ár: ' + ar
+}
+
