@@ -220,7 +220,7 @@ function vasarlas6(){
     }
     if (item == 'Macbook air M2') {
         ar += 599990;
-    }
+    }   
     listaszam += 1
     if (listaszam == 1){
         lista1.style.visibility = 'visible'
