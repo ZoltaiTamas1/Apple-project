@@ -154,7 +154,9 @@ html{
 }
 
 .card1{
-    width: 360px !important;
+    max-width: 310px !important;
+    width: auto !important;
+    margin-right: 10px;
 }
 
 .bold{
@@ -263,5 +265,5 @@ html{
 }
 .listah1{
     position: relative;
-    left: 250px;
+    text-align: center;
 }
