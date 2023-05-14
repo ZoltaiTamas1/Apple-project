@@ -51,7 +51,7 @@ function vasarlas1(){
         listaszam = 0
     }
     console.log(listaszam)
-    document.getElementById('osszesar').innerHTML = 'Ár: ' + ar
+    document.getElementById('osszesar').innerHTML = 'Ár: ' + ar + 'Ft'
 }
 function vasarlas2(){
     let item = document.getElementById('segitsegselectiphone13').value
@@ -92,7 +92,7 @@ function vasarlas2(){
         listaszam = 0
     }
     console.log(listaszam)
-    document.getElementById('osszesar').innerHTML = 'Ár: ' + ar
+    document.getElementById('osszesar').innerHTML = 'Ár: ' + ar + 'Ft'
 }
 function vasarlas3(){
     let item = document.getElementById('segitsegselectipadpro').value;
@@ -131,7 +131,7 @@ function vasarlas3(){
         listaszam = 0
     }
     console.log(listaszam)
-    document.getElementById('osszesar').innerHTML = 'Ár: ' + ar
+    document.getElementById('osszesar').innerHTML = 'Ár: ' + ar + 'Ft'
 }
 function vasarlas4(){
     let item = document.getElementById('segitsegselectipadair').value;
@@ -171,7 +171,7 @@ function vasarlas4(){
         listaszam = 0
     }
     console.log(listaszam)
-    document.getElementById('osszesar').innerHTML = 'Ár: ' + ar
+    document.getElementById('osszesar').innerHTML = 'Ár: ' + ar + 'Ft'
 }
 function vasarlas5(){
     let item = document.getElementById('segitsegselectipad').value;
@@ -211,7 +211,7 @@ function vasarlas5(){
         listaszam = 0
     }
     console.log(listaszam)
-    document.getElementById('osszesar').innerHTML = 'Ár: ' + ar
+    document.getElementById('osszesar').innerHTML = 'Ár: ' + ar + 'Ft'
 }
 function vasarlas6(){
     let item = document.getElementById('segitsegselectmacair').value;
@@ -248,7 +248,7 @@ function vasarlas6(){
         listaszam = 0
     }
     console.log(listaszam)
-    document.getElementById('osszesar').innerHTML = 'Ár: ' + ar
+    document.getElementById('osszesar').innerHTML = 'Ár: ' + ar + 'Ft'
 }
 function vasarlas7(){
     let item = document.getElementById('segitsegselectmacpro').value;
@@ -285,7 +285,7 @@ function vasarlas7(){
         listaszam = 0
     }
     console.log(listaszam)
-    document.getElementById('osszesar').innerHTML = 'Ár: ' + ar
+    document.getElementById('osszesar').innerHTML = 'Ár: ' + ar + 'Ft'
 }
 
 function vasarlas8(){
@@ -323,5 +323,5 @@ function vasarlas8(){
         listaszam = 0
     }
     console.log(listaszam)
-    document.getElementById('osszesar').innerHTML = 'Ár: ' + ar
+    document.getElementById('osszesar').innerHTML = 'Ár: ' + ar + 'Ft'
 } 
